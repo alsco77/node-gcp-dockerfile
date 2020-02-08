@@ -1,6 +1,6 @@
 View the image [on DockerHub](https://hub.docker.com/repository/docker/alsco77/node-gcp-dockerfile/general)
 
-# What
+## About the image
 
 Node Docker image to launch Javascript, React apps to GCP (GCloud)
 
