@@ -1,1 +1,15 @@
-# node-gcp-dockerfile
+# Node Docker image to launch Javascript, React apps to GCP (GCloud)
+
+Core image:
+ - gcr.io/gcp-runtimes/ubuntu_16_0_4:latest
+
+Contains:
+ - Node 10.x
+ - Yarn
+ - Google Cloud SDK
+
+
+## Usage 
+
+Use it with `circleCI` : ` - image: alsco77/node-gcp-dockerfile:origin`
+
