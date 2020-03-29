@@ -9,6 +9,7 @@ RUN echo "deb http://packages.cloud.google.com/apt cloud-sdk-stretch main" | tee
 RUN apt-get update -y && \
   apt-get install --no-install-recommends -y -q \
   apt-utils \
+  ssh-client \
   google-cloud-sdk \
   apt-transport-https \
   build-essential \
