@@ -8,12 +8,12 @@ Core image:
  - gcr.io/gcp-runtimes/ubuntu_16_0_4:latest
 
 Contains:
- - Node 10.x
+ - Node 12.x
  - Yarn
  - Google Cloud SDK
 
 
-## Usage 
+## Usage
 
 Use it with `circleCI` : ` - image: alsco77/node-gcp-dockerfile:origin`
 
