@@ -25,7 +25,7 @@ RUN apt-get update -y && \
   rm /var/lib/apt/lists/*_*
 
 
-RUN curl --silent --location https://deb.nodesource.com/setup_10.x | bash -
+RUN curl --silent --location https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get install --yes nodejs
 
 ENV PATH $PATH:/nodejs/bin
